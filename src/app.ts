@@ -1,12 +1,17 @@
-import express from 'express';
+import express, {Application} from "express";
+import morgan from "morgan";
 
-const app = express();
-const PORT = 4000;
+import dotenv from 'dotenv';
+import {Signale} from "signale";
 
-app.get('/', (req, res) => {
-  res.send('Hello, World! x2');
-});
+const app:Application = express();
+const signale = new Signale();
+
+dotenv.config();
+
+app.use(morgan('dev'));
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+    signale.success(`Servidor corriendo en http://localhost:${PORT}`);
 });
