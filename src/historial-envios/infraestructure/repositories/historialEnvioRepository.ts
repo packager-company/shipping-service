@@ -1,5 +1,6 @@
 import { IHistorialEnvioRepository } from "../../domain/repositories/IHistorialEnvioRepository";
-import { HistorialEnvioModel } from "../../../database/models/HistorialEnvioModel";
+import { HistorialEnvio } from "../../domain/entities/HistorialEnvio";
+import { HistorialEnvioModel } from "../model/HistorialEnvioModel";
 
 export class HistorialEnvioRepository implements IHistorialEnvioRepository {
   async listar(): Promise<HistorialEnvio[]> {
