@@ -6,8 +6,8 @@
   "scripts": {
     "test": "node dist/app.js",
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "ts-node-dev src/index.ts"
+    "start": "nodemon dist/app.js",
+    "dev": "tsc -watch & nodemon dist/app.js"
   },
   "keywords": [],
   "author": "martin rincón",
@@ -25,11 +25,11 @@
     "sequelize": "^6.37.3",
     "signale": "^1.4.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/signale": "^1.4.7",
-    "@types/uuid": "^9.0.8"
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.4.5"
   }
 }
