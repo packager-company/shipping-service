@@ -1,5 +1,5 @@
-import { Cotizacion } from "../domain/cotizacion";
-import { CotizacionRepository } from "../domain/cotizacionRepository";
+import { Cotizacion } from "../../domain/entities/cotizacion";
+import { CotizacionRepository } from "../../domain/repositories/cotizacionRepository";
 
 export class CreateCotizacionUseCase {
     constructor(private repository: CotizacionRepository) {}

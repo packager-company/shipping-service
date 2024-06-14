@@ -1,4 +1,4 @@
-import { Cotizacion } from "./cotizacion";
+import { Cotizacion } from "../entities/cotizacion";
 
 export interface CotizacionRepository {
     createCotizacion(id_cotizacion: number, origin: string, destination: string, weight: number): Promise<Cotizacion>;

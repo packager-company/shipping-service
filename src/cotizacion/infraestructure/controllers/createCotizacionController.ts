@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { CreateCotizacionUseCase } from "../../application/createCotizacionUseCase";
-import { Cotizacion } from "../../domain/cotizacion";
+import { CreateCotizacionUseCase } from "../../application/usecase/createCotizacionUseCase";
+import { Cotizacion } from "../../domain/entities/cotizacion";
 
 export class CreateCotizacionController {
     constructor(private createCotizacionUseCase: CreateCotizacionUseCase) {}

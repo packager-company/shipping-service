@@ -1,6 +1,6 @@
-import { Cotizacion } from "../domain/cotizacion";
-import { CotizacionRepository } from "../domain/cotizacionRepository";
-import { query } from "../../database/bd";
+import { Cotizacion } from "../../domain/entities/cotizacion";
+import { CotizacionRepository } from "../../domain/repositories/cotizacionRepository";
+import { query } from "../../../database/bd";
 
 export class CotizacionRepositoryImpl implements CotizacionRepository {
     async createCotizacion(id_cotizacion: number, origin: string, destination: string, weight: number): Promise<Cotizacion> {

@@ -1,5 +1,5 @@
 import express from 'express';
-import { createCotizacionController } from './dependencies';
+import { createCotizacionController } from '../dependencies'
 
 const cotizacionRouter = express.Router();
 

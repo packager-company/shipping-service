@@ -1,5 +1,5 @@
-import { CotizacionRepositoryImpl } from "../infraestructure/cotizacionRepositoryImpl";
-import { CreateCotizacionUseCase } from "../application/createCotizacionUseCase";
+import { CotizacionRepositoryImpl } from "./repositories/cotizacionRepositoryImpl";
+import { CreateCotizacionUseCase } from "../application/usecase/createCotizacionUseCase";
 import { CreateCotizacionController } from "./controllers/createCotizacionController";
 
 
