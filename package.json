@@ -16,10 +16,13 @@
   "license": "ISC",
   "description": "API de envío",
   "dependencies": {
+    "@types/mysql": "^2.15.26",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "morgan": "^1.10.0",
-    "signale": "^1.4.0"
+    "mysql": "^2.18.1",
+    "signale": "^1.4.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
@@ -28,4 +31,3 @@
     "typescript": "^4.5.4"
   }
 }
-

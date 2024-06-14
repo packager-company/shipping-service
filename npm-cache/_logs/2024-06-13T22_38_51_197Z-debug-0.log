@@ -1,0 +1,16 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\andro\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.12.2
+3 silly config:load:file:C:\Users\andro\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config:load:file:c:\Users\andro\Documents\shipping-services\.npmrc
+5 silly config:load:file:C:\Users\andro\.npmrc
+6 silly config:load:file:C:\Users\andro\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view morgan description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "morgan" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:c:\Users\andro\Documents\shipping-services\npm-cache\_logs\2024-06-13T22_38_51_197Z-
+10 verbose logfile c:\Users\andro\Documents\shipping-services\npm-cache\_logs\2024-06-13T22_38_51_197Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/morgan 714ms (cache revalidated)
+14 verbose exit 0
+15 info ok

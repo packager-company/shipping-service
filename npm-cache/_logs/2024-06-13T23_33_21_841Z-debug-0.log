@@ -1,0 +1,208 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\andro\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.12.2
+3 silly config:load:file:C:\Users\andro\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\andro\Documents\shipping-services\.npmrc
+5 silly config:load:file:C:\Users\andro\.npmrc
+6 silly config:load:file:C:\Users\andro\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install mysql @types/mysql
+8 verbose argv "install" "mysql" "@types/mysql"
+9 verbose logfile logs-max:10 dir:C:\Users\andro\Documents\shipping-services\npm-cache\_logs\2024-06-13T23_33_21_841Z-
+10 verbose logfile C:\Users\andro\Documents\shipping-services\npm-cache\_logs\2024-06-13T23_33_21_841Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest mysql@*
+15 http fetch GET 200 https://registry.npmjs.org/mysql 823ms (cache miss)
+16 silly fetch manifest @types/mysql@*
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fmysql 282ms (cache miss)
+18 silly placeDep ROOT @types/mysql@2.15.26 OK for: shipping-services@1.0.0 want: *
+19 silly placeDep ROOT mysql@2.18.1 OK for: shipping-services@1.0.0 want: *
+20 silly fetch manifest bignumber.js@9.0.0
+21 silly fetch manifest readable-stream@2.3.7
+22 silly fetch manifest safe-buffer@5.1.2
+23 silly fetch manifest sqlstring@2.3.1
+24 http fetch GET 200 https://registry.npmjs.org/bignumber.js 217ms (cache miss)
+25 http fetch GET 200 https://registry.npmjs.org/safe-buffer 675ms (cache revalidated)
+26 http fetch GET 200 https://registry.npmjs.org/sqlstring 676ms (cache miss)
+27 http fetch GET 200 https://registry.npmjs.org/readable-stream 678ms (cache miss)
+28 silly placeDep ROOT bignumber.js@9.0.0 OK for: mysql@2.18.1 want: 9.0.0
+29 silly placeDep ROOT readable-stream@2.3.7 OK for: mysql@2.18.1 want: 2.3.7
+30 silly placeDep node_modules/mysql safe-buffer@5.1.2 OK for: mysql@2.18.1 want: 5.1.2
+31 silly placeDep ROOT sqlstring@2.3.1 OK for: mysql@2.18.1 want: 2.3.1
+32 silly fetch manifest core-util-is@~1.0.0
+33 silly fetch manifest isarray@~1.0.0
+34 silly fetch manifest process-nextick-args@~2.0.0
+35 silly fetch manifest safe-buffer@~5.1.1
+36 silly fetch manifest string_decoder@~1.1.1
+37 silly fetch manifest util-deprecate@~1.0.1
+38 http fetch GET 200 https://registry.npmjs.org/isarray 169ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/string_decoder 188ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 194ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/core-util-is 211ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/util-deprecate 532ms (cache miss)
+43 silly placeDep ROOT core-util-is@1.0.3 OK for: readable-stream@2.3.7 want: ~1.0.0
+44 silly placeDep ROOT isarray@1.0.0 OK for: readable-stream@2.3.7 want: ~1.0.0
+45 silly placeDep ROOT process-nextick-args@2.0.1 OK for: readable-stream@2.3.7 want: ~2.0.0
+46 silly placeDep node_modules/readable-stream safe-buffer@5.1.2 OK for: readable-stream@2.3.7 want: ~5.1.1
+47 silly placeDep ROOT string_decoder@1.1.1 OK for: readable-stream@2.3.7 want: ~1.1.1
+48 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@2.3.7 want: ~1.0.1
+49 silly fetch manifest safe-buffer@~5.1.0
+50 silly placeDep node_modules/string_decoder safe-buffer@5.1.2 OK for: string_decoder@1.1.1 want: ~5.1.0
+51 silly reify moves {}
+52 silly audit bulk request {
+52 silly audit   '@types/body-parser': [ '1.19.5' ],
+52 silly audit   '@types/connect': [ '3.4.38' ],
+52 silly audit   '@types/express': [ '4.17.21' ],
+52 silly audit   '@types/express-serve-static-core': [ '4.19.3' ],
+52 silly audit   '@types/http-errors': [ '2.0.4' ],
+52 silly audit   '@types/mime': [ '1.3.5' ],
+52 silly audit   '@types/morgan': [ '1.9.9' ],
+52 silly audit   '@types/node': [ '20.14.2' ],
+52 silly audit   '@types/qs': [ '6.9.15' ],
+52 silly audit   '@types/range-parser': [ '1.2.7' ],
+52 silly audit   '@types/send': [ '0.17.4' ],
+52 silly audit   '@types/serve-static': [ '1.15.7' ],
+52 silly audit   '@types/signale': [ '1.4.7' ],
+52 silly audit   accepts: [ '1.3.8' ],
+52 silly audit   'ansi-styles': [ '3.2.1' ],
+52 silly audit   'array-flatten': [ '1.1.1' ],
+52 silly audit   'basic-auth': [ '2.0.1' ],
+52 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+52 silly audit   'body-parser': [ '1.20.2' ],
+52 silly audit   bytes: [ '3.1.2' ],
+52 silly audit   'call-bind': [ '1.0.7' ],
+52 silly audit   chalk: [ '2.4.2' ],
+52 silly audit   'color-convert': [ '1.9.3' ],
+52 silly audit   'color-name': [ '1.1.3' ],
+52 silly audit   'content-disposition': [ '0.5.4' ],
+52 silly audit   'content-type': [ '1.0.5' ],
+52 silly audit   cookie: [ '0.6.0' ],
+52 silly audit   'cookie-signature': [ '1.0.6' ],
+52 silly audit   debug: [ '2.6.9' ],
+52 silly audit   'define-data-property': [ '1.1.4' ],
+52 silly audit   depd: [ '2.0.0' ],
+52 silly audit   destroy: [ '1.2.0' ],
+52 silly audit   dotenv: [ '16.4.5' ],
+52 silly audit   'ee-first': [ '1.1.1' ],
+52 silly audit   encodeurl: [ '1.0.2' ],
+52 silly audit   'error-ex': [ '1.3.2' ],
+52 silly audit   'es-define-property': [ '1.0.0' ],
+52 silly audit   'es-errors': [ '1.3.0' ],
+52 silly audit   'escape-html': [ '1.0.3' ],
+52 silly audit   'escape-string-regexp': [ '1.0.5' ],
+52 silly audit   etag: [ '1.8.1' ],
+52 silly audit   express: [ '4.19.2' ],
+52 silly audit   figures: [ '2.0.0' ],
+52 silly audit   finalhandler: [ '1.2.0' ],
+52 silly audit   'find-up': [ '2.1.0' ],
+52 silly audit   forwarded: [ '0.2.0' ],
+52 silly audit   fresh: [ '0.5.2' ],
+52 silly audit   'function-bind': [ '1.1.2' ],
+52 silly audit   'get-intrinsic': [ '1.2.4' ],
+52 silly audit   gopd: [ '1.0.1' ],
+52 silly audit   'graceful-fs': [ '4.2.11' ],
+52 silly audit   'has-flag': [ '3.0.0' ],
+52 silly audit   'has-property-descriptors': [ '1.0.2' ],
+52 silly audit   'has-proto': [ '1.0.3' ],
+52 silly audit   'has-symbols': [ '1.0.3' ],
+52 silly audit   hasown: [ '2.0.2' ],
+52 silly audit   'http-errors': [ '2.0.0' ],
+52 silly audit   'iconv-lite': [ '0.4.24' ],
+52 silly audit   inherits: [ '2.0.4' ],
+52 silly audit   'ipaddr.js': [ '1.9.1' ],
+52 silly audit   'is-arrayish': [ '0.2.1' ],
+52 silly audit   'json-parse-better-errors': [ '1.0.2' ],
+52 silly audit   'load-json-file': [ '4.0.0' ],
+52 silly audit   'locate-path': [ '2.0.0' ],
+52 silly audit   'media-typer': [ '0.3.0' ],
+52 silly audit   'merge-descriptors': [ '1.0.1' ],
+52 silly audit   methods: [ '1.1.2' ],
+52 silly audit   mime: [ '1.6.0' ],
+52 silly audit   'mime-db': [ '1.52.0' ],
+52 silly audit   'mime-types': [ '2.1.35' ],
+52 silly audit   morgan: [ '1.10.0' ],
+52 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+52 silly audit   ms: [ '2.0.0', '2.1.3' ],
+52 silly audit   negotiator: [ '0.6.3' ],
+52 silly audit   'object-inspect': [ '1.13.1' ],
+52 silly audit   'on-headers': [ '1.0.2' ],
+52 silly audit   'p-limit': [ '1.3.0' ],
+52 silly audit   'p-locate': [ '2.0.0' ],
+52 silly audit   'p-try': [ '1.0.0' ],
+52 silly audit   'parse-json': [ '4.0.0' ],
+52 silly audit   parseurl: [ '1.3.3' ],
+52 silly audit   'path-exists': [ '3.0.0' ],
+52 silly audit   'path-to-regexp': [ '0.1.7' ],
+52 silly audit   pify: [ '3.0.0' ],
+52 silly audit   'pkg-conf': [ '2.1.0' ],
+52 silly audit   'proxy-addr': [ '2.0.7' ],
+52 silly audit   qs: [ '6.11.0' ],
+52 silly audit   'range-parser': [ '1.2.1' ],
+52 silly audit   'raw-body': [ '2.5.2' ],
+52 silly audit   'safer-buffer': [ '2.1.2' ],
+52 silly audit   send: [ '0.18.0' ],
+52 silly audit   'serve-static': [ '1.15.0' ],
+52 silly audit   'set-function-length': [ '1.2.2' ],
+52 silly audit   setprototypeof: [ '1.2.0' ],
+52 silly audit   'side-channel': [ '1.0.6' ],
+52 silly audit   signale: [ '1.4.0' ],
+52 silly audit   statuses: [ '2.0.1' ],
+52 silly audit   'strip-bom': [ '3.0.0' ],
+52 silly audit   'supports-color': [ '5.5.0' ],
+52 silly audit   toidentifier: [ '1.0.1' ],
+52 silly audit   'type-is': [ '1.6.18' ],
+52 silly audit   typescript: [ '4.9.5' ],
+52 silly audit   'undici-types': [ '5.26.5' ],
+52 silly audit   unpipe: [ '1.0.0' ],
+52 silly audit   'utils-merge': [ '1.0.1' ],
+52 silly audit   uuid: [ '10.0.0' ],
+52 silly audit   vary: [ '1.1.2' ],
+52 silly audit   '@types/mysql': [ '2.15.26' ],
+52 silly audit   mysql: [ '2.18.1' ],
+52 silly audit   'bignumber.js': [ '9.0.0' ],
+52 silly audit   'readable-stream': [ '2.3.7' ],
+52 silly audit   sqlstring: [ '2.3.1' ],
+52 silly audit   'core-util-is': [ '1.0.3' ],
+52 silly audit   isarray: [ '1.0.0' ],
+52 silly audit   'process-nextick-args': [ '2.0.1' ],
+52 silly audit   string_decoder: [ '1.1.1' ],
+52 silly audit   'util-deprecate': [ '1.0.2' ]
+52 silly audit }
+53 silly tarball no local data for util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz. Extracting by manifest.
+54 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz. Extracting by manifest.
+55 silly tarball no local data for isarray@https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz. Extracting by manifest.
+56 silly tarball no local data for process-nextick-args@https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz. Extracting by manifest.
+57 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz. Extracting by manifest.
+58 silly tarball no local data for core-util-is@https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz. Extracting by manifest.
+59 silly tarball no local data for bignumber.js@https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.0.0.tgz. Extracting by manifest.
+60 silly tarball no local data for sqlstring@https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.1.tgz. Extracting by manifest.
+61 silly tarball no local data for mysql@https://registry.npmjs.org/mysql/-/mysql-2.18.1.tgz. Extracting by manifest.
+62 silly tarball no local data for @types/mysql@https://registry.npmjs.org/@types/mysql/-/mysql-2.15.26.tgz. Extracting by manifest.
+63 http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz 202ms (cache miss)
+64 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 237ms
+65 silly audit report {}
+66 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 232ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 234ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 302ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz 583ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.0.0.tgz 628ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz 705ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.1.tgz 712ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/mysql/-/mysql-2.18.1.tgz 807ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/@types/mysql/-/mysql-2.15.26.tgz 842ms (cache miss)
+75 silly ADD node_modules/util-deprecate
+76 silly ADD node_modules/string_decoder
+77 silly ADD node_modules/string_decoder/node_modules/safe-buffer
+78 silly ADD node_modules/process-nextick-args
+79 silly ADD node_modules/isarray
+80 silly ADD node_modules/core-util-is
+81 silly ADD node_modules/sqlstring
+82 silly ADD node_modules/readable-stream
+83 silly ADD node_modules/readable-stream/node_modules/safe-buffer
+84 silly ADD node_modules/bignumber.js
+85 silly ADD node_modules/mysql
+86 silly ADD node_modules/mysql/node_modules/safe-buffer
+87 silly ADD node_modules/@types/mysql
+88 verbose exit 0
+89 info ok
