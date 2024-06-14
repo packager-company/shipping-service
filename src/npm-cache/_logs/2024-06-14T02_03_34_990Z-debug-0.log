@@ -1,0 +1,915 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\andro\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.12.2
+3 silly config:load:file:C:\Users\andro\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\andro\Documents\shipping-services\.npmrc
+5 silly config:load:file:C:\Users\andro\.npmrc
+6 silly config:load:file:C:\Users\andro\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i
+8 verbose argv "i"
+9 verbose logfile logs-max:10 dir:C:\Users\andro\Documents\shipping-services\src\npm-cache\_logs\2024-06-14T02_03_34_990Z-
+10 verbose logfile C:\Users\andro\Documents\shipping-services\src\npm-cache\_logs\2024-06-14T02_03_34_990Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest express-validator@^7.1.0
+14 http fetch GET 200 https://registry.npmjs.org/express-validator 759ms (cache miss)
+15 silly fetch manifest mysql2@^3.10.0
+16 http fetch GET 200 https://registry.npmjs.org/npm 1149ms
+17 http fetch GET 200 https://registry.npmjs.org/mysql2 293ms (cache miss)
+18 silly fetch manifest nodemon@^3.1.3
+19 http fetch GET 200 https://registry.npmjs.org/nodemon 380ms (cache miss)
+20 silly fetch manifest pg@^8.12.0
+21 http fetch GET 200 https://registry.npmjs.org/pg 335ms (cache miss)
+22 silly fetch manifest pg-native@>=3.0.1
+23 http fetch GET 200 https://registry.npmjs.org/pg-native 502ms (cache miss)
+24 silly fetch manifest pg-hstore@^2.3.4
+25 http fetch GET 200 https://registry.npmjs.org/pg-hstore 355ms (cache miss)
+26 silly fetch manifest sequelize@^6.37.3
+27 http fetch GET 200 https://registry.npmjs.org/sequelize 891ms (cache miss)
+28 silly fetch manifest ts-node@^10.9.2
+29 http fetch GET 200 https://registry.npmjs.org/ts-node 464ms (cache miss)
+30 silly fetch manifest @swc/core@>=1.2.50
+31 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore 963ms (cache miss)
+32 silly fetch manifest @swc/helpers@*
+33 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 333ms (cache miss)
+34 silly fetch manifest @swc/wasm@>=1.2.50
+35 http fetch GET 200 https://registry.npmjs.org/@swc%2fwasm 1156ms (cache miss)
+36 silly fetch manifest @types/node@*
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 1548ms (cache miss)
+38 silly fetch manifest typescript@^5.4.5
+39 http fetch GET 200 https://registry.npmjs.org/typescript 2427ms (cache miss)
+40 silly fetch manifest @types/uuid@^9.0.8
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fuuid 348ms (cache miss)
+42 silly placeDep ROOT @types/uuid@9.0.8 OK for: shipping-services@1.0.0 want: ^9.0.8
+43 silly placeDep ROOT express-validator@7.1.0 OK for: shipping-services@1.0.0 want: ^7.1.0
+44 silly placeDep ROOT mysql2@3.10.1 OK for: shipping-services@1.0.0 want: ^3.10.0
+45 silly placeDep ROOT nodemon@3.1.3 OK for: shipping-services@1.0.0 want: ^3.1.3
+46 silly placeDep ROOT pg@8.12.0 OK for: shipping-services@1.0.0 want: ^8.12.0
+47 silly placeDep ROOT pg-hstore@2.3.4 OK for: shipping-services@1.0.0 want: ^2.3.4
+48 silly placeDep ROOT sequelize@6.37.3 OK for: shipping-services@1.0.0 want: ^6.37.3
+49 silly placeDep ROOT ts-node@10.9.2 OK for: shipping-services@1.0.0 want: ^10.9.2
+50 silly placeDep ROOT typescript@5.4.5 REPLACE for: shipping-services@1.0.0 want: ^5.4.5
+51 silly fetch manifest lodash@^4.17.21
+52 silly fetch manifest validator@~13.12.0
+53 silly fetch manifest denque@^2.1.0
+54 silly fetch manifest generate-function@^2.3.1
+55 silly fetch manifest iconv-lite@^0.6.3
+56 silly fetch manifest long@^5.2.1
+57 silly fetch manifest lru-cache@^8.0.0
+58 silly fetch manifest named-placeholders@^1.1.3
+59 silly fetch manifest seq-queue@^0.0.5
+60 silly fetch manifest sqlstring@^2.3.2
+61 silly fetch manifest debug@^4
+62 silly fetch manifest touch@^3.1.0
+63 silly fetch manifest semver@^7.5.3
+64 silly fetch manifest chokidar@^3.5.2
+65 silly fetch manifest minimatch@^3.1.2
+66 http fetch GET 200 https://registry.npmjs.org/lodash 339ms (cache miss)
+67 silly fetch manifest undefsafe@^2.0.5
+68 http fetch GET 200 https://registry.npmjs.org/validator 451ms (cache miss)
+69 silly fetch manifest pstree.remy@^1.1.8
+70 http fetch GET 200 https://registry.npmjs.org/undefsafe 347ms (cache miss)
+71 silly fetch manifest ignore-by-default@^1.0.1
+72 http fetch GET 200 https://registry.npmjs.org/pstree.remy 238ms (cache miss)
+73 silly fetch manifest simple-update-notifier@^2.0.0
+74 http fetch GET 200 https://registry.npmjs.org/named-placeholders 739ms (cache miss)
+75 silly fetch manifest pg-connection-string@^2.6.4
+76 http fetch GET 200 https://registry.npmjs.org/generate-function 765ms (cache miss)
+77 silly fetch manifest pg-pool@^3.6.2
+78 http fetch GET 200 https://registry.npmjs.org/iconv-lite 812ms (cache miss)
+79 silly fetch manifest pg-protocol@^1.6.1
+80 http fetch GET 200 https://registry.npmjs.org/denque 814ms (cache miss)
+81 silly fetch manifest pg-types@^2.1.0
+82 http fetch GET 200 https://registry.npmjs.org/pg-connection-string 143ms (cache miss)
+83 silly fetch manifest pgpass@1.x
+84 http fetch GET 200 https://registry.npmjs.org/simple-update-notifier 522ms (cache miss)
+85 silly fetch manifest pg-cloudflare@^1.1.1
+86 http fetch GET 200 https://registry.npmjs.org/sqlstring 1215ms (cache miss)
+87 silly fetch manifest underscore@^1.13.1
+88 http fetch GET 200 https://registry.npmjs.org/pg-protocol 454ms (cache miss)
+89 silly fetch manifest @types/debug@^4.1.8
+90 http fetch GET 200 https://registry.npmjs.org/ignore-by-default 581ms (cache miss)
+91 silly fetch manifest @types/validator@^13.7.17
+92 http fetch GET 200 https://registry.npmjs.org/seq-queue 1272ms (cache miss)
+93 silly fetch manifest debug@^4.3.4
+94 http fetch GET 200 https://registry.npmjs.org/pgpass 390ms (cache miss)
+95 silly fetch manifest dottie@^2.0.6
+96 http fetch GET 200 https://registry.npmjs.org/pg-types 469ms (cache miss)
+97 silly fetch manifest inflection@^1.13.4
+98 http fetch GET 200 https://registry.npmjs.org/pg-pool 520ms (cache miss)
+99 silly fetch manifest moment@^2.29.4
+100 http fetch GET 200 https://registry.npmjs.org/lru-cache 1287ms (cache miss)
+101 silly fetch manifest moment-timezone@^0.5.43
+102 http fetch GET 200 https://registry.npmjs.org/long 1293ms (cache miss)
+103 silly fetch manifest pg-connection-string@^2.6.1
+104 silly fetch manifest retry-as-promised@^7.0.4
+105 http fetch GET 200 https://registry.npmjs.org/debug 1295ms (cache miss)
+106 silly fetch manifest semver@^7.5.4
+107 http fetch GET 200 https://registry.npmjs.org/touch 1299ms (cache miss)
+108 silly fetch manifest sequelize-pool@^7.1.0
+109 http fetch GET 200 https://registry.npmjs.org/chokidar 1452ms (cache miss)
+110 silly fetch manifest toposort-class@^1.0.1
+111 http fetch GET 200 https://registry.npmjs.org/dottie 220ms (cache miss)
+112 silly fetch manifest uuid@^8.3.2
+113 http fetch GET 200 https://registry.npmjs.org/inflection 329ms (cache miss)
+114 silly fetch manifest validator@^13.9.0
+115 silly fetch manifest wkx@^0.5.0
+116 http fetch GET 200 https://registry.npmjs.org/sequelize-pool 330ms (cache miss)
+117 silly fetch manifest @cspotcode/source-map-support@^0.8.0
+118 http fetch GET 200 https://registry.npmjs.org/pg-cloudflare 421ms (cache miss)
+119 silly fetch manifest @tsconfig/node10@^1.0.7
+120 http fetch GET 200 https://registry.npmjs.org/moment 386ms (cache miss)
+121 silly fetch manifest @tsconfig/node12@^1.0.7
+122 http fetch GET 200 https://registry.npmjs.org/retry-as-promised 420ms (cache miss)
+123 silly fetch manifest @tsconfig/node14@^1.0.0
+124 http fetch GET 200 https://registry.npmjs.org/moment-timezone 489ms (cache miss)
+125 silly fetch manifest @tsconfig/node16@^1.0.2
+126 http fetch GET 200 https://registry.npmjs.org/underscore 575ms (cache miss)
+127 silly fetch manifest acorn@^8.4.1
+128 http fetch GET 200 https://registry.npmjs.org/debug 536ms (cache miss)
+129 silly fetch manifest acorn-walk@^8.1.1
+130 http fetch GET 200 https://registry.npmjs.org/semver 515ms (cache miss)
+131 silly fetch manifest arg@^4.1.0
+132 http fetch GET 200 https://registry.npmjs.org/@types%2fdebug 554ms (cache miss)
+133 silly fetch manifest create-require@^1.1.0
+134 http fetch GET 200 https://registry.npmjs.org/uuid 372ms (cache miss)
+135 silly fetch manifest diff@^4.0.1
+136 http fetch GET 200 https://registry.npmjs.org/wkx 259ms (cache miss)
+137 silly fetch manifest make-error@^1.1.1
+138 http fetch GET 200 https://registry.npmjs.org/toposort-class 427ms (cache miss)
+139 silly fetch manifest v8-compile-cache-lib@^3.0.1
+140 http fetch GET 200 https://registry.npmjs.org/@cspotcode%2fsource-map-support 255ms (cache miss)
+141 silly fetch manifest yn@3.1.1
+142 http fetch GET 200 https://registry.npmjs.org/semver 1913ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/@types%2fvalidator 746ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/create-require 207ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/arg 256ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/acorn-walk 262ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/make-error 219ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode16 319ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/yn 224ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/minimatch 2192ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/acorn 406ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/diff 331ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode12 588ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache-lib 478ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode14 650ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode10 771ms (cache miss)
+157 silly placeDep ROOT lodash@4.17.21 OK for: express-validator@7.1.0 want: ^4.17.21
+158 silly placeDep ROOT validator@13.12.0 OK for: express-validator@7.1.0 want: ~13.12.0
+159 silly placeDep ROOT denque@2.1.0 OK for: mysql2@3.10.1 want: ^2.1.0
+160 silly placeDep ROOT generate-function@2.3.1 OK for: mysql2@3.10.1 want: ^2.3.1
+161 silly placeDep node_modules/mysql2 iconv-lite@0.6.3 OK for: mysql2@3.10.1 want: ^0.6.3
+162 silly placeDep ROOT long@5.2.3 OK for: mysql2@3.10.1 want: ^5.2.1
+163 silly placeDep ROOT lru-cache@8.0.5 OK for: mysql2@3.10.1 want: ^8.0.0
+164 silly placeDep ROOT named-placeholders@1.1.3 OK for: mysql2@3.10.1 want: ^1.1.3
+165 silly placeDep ROOT seq-queue@0.0.5 OK for: mysql2@3.10.1 want: ^0.0.5
+166 silly placeDep node_modules/mysql2 sqlstring@2.3.3 OK for: mysql2@3.10.1 want: ^2.3.2
+167 silly fetch manifest is-property@^1.0.2
+168 silly fetch manifest lru-cache@^7.14.1
+169 http fetch GET 200 https://registry.npmjs.org/is-property 436ms (cache miss)
+170 silly placeDep ROOT is-property@1.0.2 OK for: generate-function@2.3.1 want: ^1.0.2
+171 silly placeDep node_modules/named-placeholders lru-cache@7.18.3 OK for: named-placeholders@1.1.3 want: ^7.14.1
+172 silly placeDep ROOT chokidar@3.6.0 OK for: nodemon@3.1.3 want: ^3.5.2
+173 silly placeDep node_modules/nodemon debug@4.3.5 OK for: nodemon@3.1.3 want: ^4
+174 silly placeDep ROOT ignore-by-default@1.0.1 OK for: nodemon@3.1.3 want: ^1.0.1
+175 silly placeDep ROOT minimatch@3.1.2 OK for: nodemon@3.1.3 want: ^3.1.2
+176 silly placeDep ROOT pstree.remy@1.1.8 OK for: nodemon@3.1.3 want: ^1.1.8
+177 silly placeDep ROOT semver@7.6.2 OK for: nodemon@3.1.3 want: ^7.5.3
+178 silly placeDep ROOT simple-update-notifier@2.0.0 OK for: nodemon@3.1.3 want: ^2.0.0
+179 silly placeDep ROOT touch@3.1.1 OK for: nodemon@3.1.3 want: ^3.1.0
+180 silly placeDep ROOT undefsafe@2.0.5 OK for: nodemon@3.1.3 want: ^2.0.5
+181 silly fetch manifest anymatch@~3.1.2
+182 silly fetch manifest braces@~3.0.2
+183 silly fetch manifest glob-parent@~5.1.2
+184 silly fetch manifest is-binary-path@~2.1.0
+185 silly fetch manifest is-glob@~4.0.1
+186 silly fetch manifest normalize-path@~3.0.0
+187 silly fetch manifest readdirp@~3.6.0
+188 silly fetch manifest fsevents@~2.3.2
+189 silly fetch manifest ms@2.1.2
+190 silly fetch manifest brace-expansion@^1.1.7
+191 http fetch GET 200 https://registry.npmjs.org/is-binary-path 225ms (cache miss)
+192 http fetch GET 200 https://registry.npmjs.org/glob-parent 228ms (cache miss)
+193 http fetch GET 200 https://registry.npmjs.org/anymatch 291ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/ms 322ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/readdirp 324ms (cache miss)
+196 http fetch GET 200 https://registry.npmjs.org/is-glob 331ms (cache miss)
+197 http fetch GET 200 https://registry.npmjs.org/braces 369ms (cache miss)
+198 http fetch GET 200 https://registry.npmjs.org/normalize-path 370ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/brace-expansion 373ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/fsevents 376ms (cache miss)
+201 silly placeDep ROOT anymatch@3.1.3 OK for: chokidar@3.6.0 want: ~3.1.2
+202 silly placeDep ROOT braces@3.0.3 OK for: chokidar@3.6.0 want: ~3.0.2
+203 silly placeDep ROOT fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+204 silly placeDep ROOT glob-parent@5.1.2 OK for: chokidar@3.6.0 want: ~5.1.2
+205 silly placeDep ROOT is-binary-path@2.1.0 OK for: chokidar@3.6.0 want: ~2.1.0
+206 silly placeDep ROOT is-glob@4.0.3 OK for: chokidar@3.6.0 want: ~4.0.1
+207 silly placeDep ROOT normalize-path@3.0.0 OK for: chokidar@3.6.0 want: ~3.0.0
+208 silly placeDep ROOT readdirp@3.6.0 OK for: chokidar@3.6.0 want: ~3.6.0
+209 silly fetch manifest normalize-path@^3.0.0
+210 silly fetch manifest picomatch@^2.0.4
+211 silly fetch manifest fill-range@^7.1.1
+212 silly fetch manifest is-glob@^4.0.1
+213 silly fetch manifest binary-extensions@^2.0.0
+214 silly fetch manifest is-extglob@^2.1.1
+215 silly fetch manifest picomatch@^2.2.1
+216 http fetch GET 200 https://registry.npmjs.org/picomatch 239ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/is-extglob 240ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/binary-extensions 241ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/picomatch 305ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/fill-range 310ms (cache miss)
+221 silly placeDep ROOT picomatch@2.3.1 OK for: anymatch@3.1.3 want: ^2.0.4
+222 silly placeDep ROOT fill-range@7.1.1 OK for: braces@3.0.3 want: ^7.1.1
+223 silly fetch manifest to-regex-range@^5.0.1
+224 http fetch GET 200 https://registry.npmjs.org/to-regex-range 249ms (cache miss)
+225 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.1.1 want: ^5.0.1
+226 silly fetch manifest is-number@^7.0.0
+227 http fetch GET 200 https://registry.npmjs.org/is-number 254ms (cache miss)
+228 silly placeDep ROOT binary-extensions@2.3.0 OK for: is-binary-path@2.1.0 want: ^2.0.0
+229 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+230 silly placeDep ROOT brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+231 silly fetch manifest balanced-match@^1.0.0
+232 silly fetch manifest concat-map@0.0.1
+233 http fetch GET 200 https://registry.npmjs.org/concat-map 293ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/balanced-match 296ms (cache miss)
+235 silly placeDep ROOT balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+236 silly placeDep ROOT concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+237 silly fetch manifest pg@>=8.0
+238 silly placeDep ROOT pg-cloudflare@1.1.1 OK for: pg@8.12.0 want: ^1.1.1
+239 silly placeDep ROOT pg-connection-string@2.6.4 OK for: pg@8.12.0 want: ^2.6.4
+240 silly placeDep ROOT pg-pool@3.6.2 OK for: pg@8.12.0 want: ^3.6.2
+241 silly placeDep ROOT pg-protocol@1.6.1 OK for: pg@8.12.0 want: ^1.6.1
+242 silly placeDep ROOT pg-types@2.2.0 OK for: pg@8.12.0 want: ^2.1.0
+243 silly placeDep ROOT pgpass@1.0.5 OK for: pg@8.12.0 want: 1.x
+244 silly fetch manifest pg-int8@1.0.1
+245 silly fetch manifest postgres-array@~2.0.0
+246 silly fetch manifest postgres-bytea@~1.0.0
+247 silly fetch manifest postgres-date@~1.0.4
+248 silly fetch manifest postgres-interval@^1.1.0
+249 silly fetch manifest split2@^4.1.0
+250 http fetch GET 200 https://registry.npmjs.org/postgres-interval 143ms (cache miss)
+251 http fetch GET 200 https://registry.npmjs.org/postgres-bytea 219ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/pg-int8 222ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/postgres-array 242ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/postgres-date 241ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/split2 321ms (cache miss)
+256 silly placeDep ROOT underscore@1.13.6 OK for: pg-hstore@2.3.4 want: ^1.13.1
+257 silly placeDep ROOT pg-int8@1.0.1 OK for: pg-types@2.2.0 want: 1.0.1
+258 silly placeDep ROOT postgres-array@2.0.0 OK for: pg-types@2.2.0 want: ~2.0.0
+259 silly placeDep ROOT postgres-bytea@1.0.0 OK for: pg-types@2.2.0 want: ~1.0.0
+260 silly placeDep ROOT postgres-date@1.0.7 OK for: pg-types@2.2.0 want: ~1.0.4
+261 silly placeDep ROOT postgres-interval@1.2.0 OK for: pg-types@2.2.0 want: ^1.1.0
+262 silly fetch manifest xtend@^4.0.0
+263 http fetch GET 200 https://registry.npmjs.org/xtend 241ms (cache miss)
+264 silly placeDep ROOT split2@4.2.0 OK for: pgpass@1.0.5 want: ^4.1.0
+265 silly placeDep ROOT xtend@4.0.2 OK for: postgres-interval@1.2.0 want: ^4.0.0
+266 silly placeDep ROOT @types/debug@4.1.12 OK for: sequelize@6.37.3 want: ^4.1.8
+267 silly placeDep ROOT @types/validator@13.11.10 OK for: sequelize@6.37.3 want: ^13.7.17
+268 silly placeDep node_modules/sequelize debug@4.3.5 OK for: sequelize@6.37.3 want: ^4.3.4
+269 silly placeDep ROOT dottie@2.0.6 OK for: sequelize@6.37.3 want: ^2.0.6
+270 silly placeDep ROOT inflection@1.13.4 OK for: sequelize@6.37.3 want: ^1.13.4
+271 silly placeDep ROOT moment@2.30.1 OK for: sequelize@6.37.3 want: ^2.29.4
+272 silly placeDep ROOT moment-timezone@0.5.45 OK for: sequelize@6.37.3 want: ^0.5.43
+273 silly placeDep ROOT retry-as-promised@7.0.4 OK for: sequelize@6.37.3 want: ^7.0.4
+274 silly placeDep ROOT sequelize-pool@7.1.0 OK for: sequelize@6.37.3 want: ^7.1.0
+275 silly placeDep ROOT toposort-class@1.0.1 OK for: sequelize@6.37.3 want: ^1.0.1
+276 silly placeDep node_modules/sequelize uuid@8.3.2 OK for: sequelize@6.37.3 want: ^8.3.2
+277 silly placeDep ROOT wkx@0.5.0 OK for: sequelize@6.37.3 want: ^0.5.0
+278 silly fetch manifest @types/ms@*
+279 http fetch GET 200 https://registry.npmjs.org/@types%2fms 217ms (cache miss)
+280 silly placeDep ROOT @types/ms@0.7.34 OK for: @types/debug@4.1.12 want: *
+281 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+282 silly placeDep ROOT @cspotcode/source-map-support@0.8.1 OK for: ts-node@10.9.2 want: ^0.8.0
+283 silly placeDep ROOT @tsconfig/node10@1.0.11 OK for: ts-node@10.9.2 want: ^1.0.7
+284 silly placeDep ROOT @tsconfig/node12@1.0.11 OK for: ts-node@10.9.2 want: ^1.0.7
+285 silly placeDep ROOT @tsconfig/node14@1.0.3 OK for: ts-node@10.9.2 want: ^1.0.0
+286 silly placeDep ROOT @tsconfig/node16@1.0.4 OK for: ts-node@10.9.2 want: ^1.0.2
+287 silly placeDep ROOT acorn@8.11.3 OK for: ts-node@10.9.2 want: ^8.4.1
+288 silly placeDep ROOT acorn-walk@8.3.2 OK for: ts-node@10.9.2 want: ^8.1.1
+289 silly placeDep ROOT arg@4.1.3 OK for: ts-node@10.9.2 want: ^4.1.0
+290 silly placeDep ROOT create-require@1.1.1 OK for: ts-node@10.9.2 want: ^1.1.0
+291 silly placeDep ROOT diff@4.0.2 OK for: ts-node@10.9.2 want: ^4.0.1
+292 silly placeDep ROOT make-error@1.3.6 OK for: ts-node@10.9.2 want: ^1.1.1
+293 silly placeDep ROOT v8-compile-cache-lib@3.0.1 OK for: ts-node@10.9.2 want: ^3.0.1
+294 silly placeDep ROOT yn@3.1.1 OK for: ts-node@10.9.2 want: 3.1.1
+295 silly fetch manifest @jridgewell/trace-mapping@0.3.9
+296 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 353ms (cache miss)
+297 silly placeDep ROOT @jridgewell/trace-mapping@0.3.9 OK for: @cspotcode/source-map-support@0.8.1 want: 0.3.9
+298 silly fetch manifest @jridgewell/resolve-uri@^3.0.3
+299 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.10
+300 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fresolve-uri 424ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 424ms (cache miss)
+302 silly placeDep ROOT @jridgewell/resolve-uri@3.1.2 OK for: @jridgewell/trace-mapping@0.3.9 want: ^3.0.3
+303 silly placeDep ROOT @jridgewell/sourcemap-codec@1.4.15 OK for: @jridgewell/trace-mapping@0.3.9 want: ^1.4.10
+304 silly placeDep node_modules/nodemon ms@2.1.2 OK for: debug@4.3.5 want: 2.1.2
+305 silly placeDep node_modules/sequelize ms@2.1.2 OK for: debug@4.3.5 want: 2.1.2
+306 silly reify mark retired [
+306 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\body-parser'
+306 silly reify ]
+307 silly reify mark retired [
+307 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\connect'
+307 silly reify ]
+308 silly reify mark retired [
+308 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\express'
+308 silly reify ]
+309 silly reify mark retired [
+309 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\express-serve-static-core'
+309 silly reify ]
+310 silly reify mark retired [
+310 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\http-errors'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\mime'
+311 silly reify ]
+312 silly reify mark retired [
+312 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\morgan'
+312 silly reify ]
+313 silly reify mark retired [
+313 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\mysql'
+313 silly reify ]
+314 silly reify mark retired [
+314 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\qs'
+314 silly reify ]
+315 silly reify mark retired [
+315 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\range-parser'
+315 silly reify ]
+316 silly reify mark retired [
+316 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\send'
+316 silly reify ]
+317 silly reify mark retired [
+317 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\serve-static'
+317 silly reify ]
+318 silly reify mark retired [
+318 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\basic-auth'
+318 silly reify ]
+319 silly reify mark retired [
+319 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\bignumber.js'
+319 silly reify ]
+320 silly reify mark retired [
+320 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\core-util-is'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\isarray'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\morgan'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\mysql'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\on-headers'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\process-nextick-args'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\readable-stream'
+326 silly reify ]
+327 silly reify mark retired [
+327 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\sqlstring'
+327 silly reify ]
+328 silly reify mark retired [
+328 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\string_decoder'
+328 silly reify ]
+329 silly reify mark retired [
+329 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\typescript',
+329 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsc',
+329 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsc.cmd',
+329 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsc.ps1',
+329 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsserver',
+329 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsserver.cmd',
+329 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsserver.ps1'
+329 silly reify ]
+330 silly reify mark retired [
+330 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\util-deprecate'
+330 silly reify ]
+331 silly reify moves {
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\body-parser': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.body-parser-rGofFpWs',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\connect': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.connect-vVb9Vnpt',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\express': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.express-eIdAb1n2',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\express-serve-static-core': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.express-serve-static-core-OGvachjE',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\http-errors': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.http-errors-k8RRib8H',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\mime': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.mime-s75ICAgZ',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\morgan': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.morgan-38dHYibZ',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\mysql': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.mysql-adKTN5SJ',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\qs': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.qs-zkgiUNXA',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\range-parser': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.range-parser-tDHLiwdw',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\send': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.send-bjoq4Nqr',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\serve-static': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\@types\\.serve-static-4yScvpeo',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\basic-auth': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.basic-auth-NFJX5Y1K',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\bignumber.js': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bignumber.js-vH10g6p9',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\core-util-is': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.core-util-is-HPY3FnVu',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\isarray': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.isarray-zHiC0vMj',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\morgan': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.morgan-XetFKsbr',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\mysql': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.mysql-mpyDgoWN',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\on-headers': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.on-headers-OOqAsfg8',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\process-nextick-args': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.process-nextick-args-hKZDzXOZ',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\readable-stream': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.readable-stream-wD2AIO3D',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\sqlstring': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.sqlstring-4pQE8qhs',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\string_decoder': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.string_decoder-Zf3DUxZn',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\typescript': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.typescript-fSUZSKIQ',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsc': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\.tsc-rh72jcay',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\.tsc.cmd-IMRJYNhe',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\.tsc.ps1-DnwzjeD6',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsserver': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\.tsserver-9Fv4Joyc',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\.tsserver.cmd-DGAkUBB1',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.bin\\.tsserver.ps1-maFVBe8q',
+331 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\util-deprecate': 'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\.util-deprecate-AKU3qhqg'
+331 silly reify }
+332 silly audit bulk request {
+332 silly audit   '@types/node': [ '20.14.2' ],
+332 silly audit   '@types/signale': [ '1.4.7' ],
+332 silly audit   accepts: [ '1.3.8' ],
+332 silly audit   'ansi-styles': [ '3.2.1' ],
+332 silly audit   'array-flatten': [ '1.1.1' ],
+332 silly audit   'safe-buffer': [ '5.2.1' ],
+332 silly audit   'body-parser': [ '1.20.2' ],
+332 silly audit   bytes: [ '3.1.2' ],
+332 silly audit   'call-bind': [ '1.0.7' ],
+332 silly audit   chalk: [ '2.4.2' ],
+332 silly audit   'color-convert': [ '1.9.3' ],
+332 silly audit   'color-name': [ '1.1.3' ],
+332 silly audit   'content-disposition': [ '0.5.4' ],
+332 silly audit   'content-type': [ '1.0.5' ],
+332 silly audit   cookie: [ '0.6.0' ],
+332 silly audit   'cookie-signature': [ '1.0.6' ],
+332 silly audit   debug: [ '2.6.9', '4.3.5' ],
+332 silly audit   'define-data-property': [ '1.1.4' ],
+332 silly audit   depd: [ '2.0.0' ],
+332 silly audit   destroy: [ '1.2.0' ],
+332 silly audit   dotenv: [ '16.4.5' ],
+332 silly audit   'ee-first': [ '1.1.1' ],
+332 silly audit   encodeurl: [ '1.0.2' ],
+332 silly audit   'error-ex': [ '1.3.2' ],
+332 silly audit   'es-define-property': [ '1.0.0' ],
+332 silly audit   'es-errors': [ '1.3.0' ],
+332 silly audit   'escape-html': [ '1.0.3' ],
+332 silly audit   'escape-string-regexp': [ '1.0.5' ],
+332 silly audit   etag: [ '1.8.1' ],
+332 silly audit   express: [ '4.19.2' ],
+332 silly audit   figures: [ '2.0.0' ],
+332 silly audit   finalhandler: [ '1.2.0' ],
+332 silly audit   'find-up': [ '2.1.0' ],
+332 silly audit   forwarded: [ '0.2.0' ],
+332 silly audit   fresh: [ '0.5.2' ],
+332 silly audit   'function-bind': [ '1.1.2' ],
+332 silly audit   'get-intrinsic': [ '1.2.4' ],
+332 silly audit   gopd: [ '1.0.1' ],
+332 silly audit   'graceful-fs': [ '4.2.11' ],
+332 silly audit   'has-flag': [ '3.0.0' ],
+332 silly audit   'has-property-descriptors': [ '1.0.2' ],
+332 silly audit   'has-proto': [ '1.0.3' ],
+332 silly audit   'has-symbols': [ '1.0.3' ],
+332 silly audit   hasown: [ '2.0.2' ],
+332 silly audit   'http-errors': [ '2.0.0' ],
+332 silly audit   'iconv-lite': [ '0.4.24', '0.6.3' ],
+332 silly audit   inherits: [ '2.0.4' ],
+332 silly audit   'ipaddr.js': [ '1.9.1' ],
+332 silly audit   'is-arrayish': [ '0.2.1' ],
+332 silly audit   'json-parse-better-errors': [ '1.0.2' ],
+332 silly audit   'load-json-file': [ '4.0.0' ],
+332 silly audit   'locate-path': [ '2.0.0' ],
+332 silly audit   'media-typer': [ '0.3.0' ],
+332 silly audit   'merge-descriptors': [ '1.0.1' ],
+332 silly audit   methods: [ '1.1.2' ],
+332 silly audit   mime: [ '1.6.0' ],
+332 silly audit   'mime-db': [ '1.52.0' ],
+332 silly audit   'mime-types': [ '2.1.35' ],
+332 silly audit   'on-finished': [ '2.4.1' ],
+332 silly audit   ms: [ '2.0.0', '2.1.3', '2.1.2' ],
+332 silly audit   negotiator: [ '0.6.3' ],
+332 silly audit   'object-inspect': [ '1.13.1' ],
+332 silly audit   'p-limit': [ '1.3.0' ],
+332 silly audit   'p-locate': [ '2.0.0' ],
+332 silly audit   'p-try': [ '1.0.0' ],
+332 silly audit   'parse-json': [ '4.0.0' ],
+332 silly audit   parseurl: [ '1.3.3' ],
+332 silly audit   'path-exists': [ '3.0.0' ],
+332 silly audit   'path-to-regexp': [ '0.1.7' ],
+332 silly audit   pify: [ '3.0.0' ],
+332 silly audit   'pkg-conf': [ '2.1.0' ],
+332 silly audit   'proxy-addr': [ '2.0.7' ],
+332 silly audit   qs: [ '6.11.0' ],
+332 silly audit   'range-parser': [ '1.2.1' ],
+332 silly audit   'raw-body': [ '2.5.2' ],
+332 silly audit   'safer-buffer': [ '2.1.2' ],
+332 silly audit   send: [ '0.18.0' ],
+332 silly audit   'serve-static': [ '1.15.0' ],
+332 silly audit   'set-function-length': [ '1.2.2' ],
+332 silly audit   setprototypeof: [ '1.2.0' ],
+332 silly audit   'side-channel': [ '1.0.6' ],
+332 silly audit   signale: [ '1.4.0' ],
+332 silly audit   sqlstring: [ '2.3.3' ],
+332 silly audit   statuses: [ '2.0.1' ],
+332 silly audit   'strip-bom': [ '3.0.0' ],
+332 silly audit   'supports-color': [ '5.5.0' ],
+332 silly audit   toidentifier: [ '1.0.1' ],
+332 silly audit   'type-is': [ '1.6.18' ],
+332 silly audit   'undici-types': [ '5.26.5' ],
+332 silly audit   unpipe: [ '1.0.0' ],
+332 silly audit   'utils-merge': [ '1.0.1' ],
+332 silly audit   uuid: [ '10.0.0', '8.3.2' ],
+332 silly audit   vary: [ '1.1.2' ],
+332 silly audit   '@types/uuid': [ '9.0.8' ],
+332 silly audit   'express-validator': [ '7.1.0' ],
+332 silly audit   mysql2: [ '3.10.1' ],
+332 silly audit   nodemon: [ '3.1.3' ],
+332 silly audit   pg: [ '8.12.0' ],
+332 silly audit   'pg-hstore': [ '2.3.4' ],
+332 silly audit   sequelize: [ '6.37.3' ],
+332 silly audit   'ts-node': [ '10.9.2' ],
+332 silly audit   typescript: [ '5.4.5' ],
+332 silly audit   lodash: [ '4.17.21' ],
+332 silly audit   validator: [ '13.12.0' ],
+332 silly audit   denque: [ '2.1.0' ],
+332 silly audit   'generate-function': [ '2.3.1' ],
+332 silly audit   long: [ '5.2.3' ],
+332 silly audit   'lru-cache': [ '8.0.5', '7.18.3' ],
+332 silly audit   'named-placeholders': [ '1.1.3' ],
+332 silly audit   'seq-queue': [ '0.0.5' ],
+332 silly audit   'is-property': [ '1.0.2' ],
+332 silly audit   chokidar: [ '3.6.0' ],
+332 silly audit   'ignore-by-default': [ '1.0.1' ],
+332 silly audit   minimatch: [ '3.1.2' ],
+332 silly audit   'pstree.remy': [ '1.1.8' ],
+332 silly audit   semver: [ '7.6.2' ],
+332 silly audit   'simple-update-notifier': [ '2.0.0' ],
+332 silly audit   touch: [ '3.1.1' ],
+332 silly audit   undefsafe: [ '2.0.5' ],
+332 silly audit   anymatch: [ '3.1.3' ],
+332 silly audit   braces: [ '3.0.3' ],
+332 silly audit   fsevents: [ '2.3.3' ],
+332 silly audit   'glob-parent': [ '5.1.2' ],
+332 silly audit   'is-binary-path': [ '2.1.0' ],
+332 silly audit   'is-glob': [ '4.0.3' ],
+332 silly audit   'normalize-path': [ '3.0.0' ],
+332 silly audit   readdirp: [ '3.6.0' ],
+332 silly audit   picomatch: [ '2.3.1' ],
+332 silly audit   'fill-range': [ '7.1.1' ],
+332 silly audit   'to-regex-range': [ '5.0.1' ],
+332 silly audit   'binary-extensions': [ '2.3.0' ],
+332 silly audit   'is-extglob': [ '2.1.1' ],
+332 silly audit   'brace-expansion': [ '1.1.11' ],
+332 silly audit   'balanced-match': [ '1.0.2' ],
+332 silly audit   'concat-map': [ '0.0.1' ],
+332 silly audit   'pg-cloudflare': [ '1.1.1' ],
+332 silly audit   'pg-connection-string': [ '2.6.4' ],
+332 silly audit   'pg-pool': [ '3.6.2' ],
+332 silly audit   'pg-protocol': [ '1.6.1' ],
+332 silly audit   'pg-types': [ '2.2.0' ],
+332 silly audit   pgpass: [ '1.0.5' ],
+332 silly audit   underscore: [ '1.13.6' ],
+332 silly audit   'pg-int8': [ '1.0.1' ],
+332 silly audit   'postgres-array': [ '2.0.0' ],
+332 silly audit   'postgres-bytea': [ '1.0.0' ],
+332 silly audit   'postgres-date': [ '1.0.7' ],
+332 silly audit   'postgres-interval': [ '1.2.0' ],
+332 silly audit   split2: [ '4.2.0' ],
+332 silly audit   xtend: [ '4.0.2' ],
+332 silly audit   '@types/debug': [ '4.1.12' ],
+332 silly audit   '@types/validator': [ '13.11.10' ],
+332 silly audit   dottie: [ '2.0.6' ],
+332 silly audit   inflection: [ '1.13.4' ],
+332 silly audit   moment: [ '2.30.1' ],
+332 silly audit   'moment-timezone': [ '0.5.45' ],
+332 silly audit   'retry-as-promised': [ '7.0.4' ],
+332 silly audit   'sequelize-pool': [ '7.1.0' ],
+332 silly audit   'toposort-class': [ '1.0.1' ],
+332 silly audit   wkx: [ '0.5.0' ],
+332 silly audit   '@types/ms': [ '0.7.34' ],
+332 silly audit   'is-number': [ '7.0.0' ],
+332 silly audit   '@cspotcode/source-map-support': [ '0.8.1' ],
+332 silly audit   '@tsconfig/node10': [ '1.0.11' ],
+332 silly audit   '@tsconfig/node12': [ '1.0.11' ],
+332 silly audit   '@tsconfig/node14': [ '1.0.3' ],
+332 silly audit   '@tsconfig/node16': [ '1.0.4' ],
+332 silly audit   acorn: [ '8.11.3' ],
+332 silly audit   'acorn-walk': [ '8.3.2' ],
+332 silly audit   arg: [ '4.1.3' ],
+332 silly audit   'create-require': [ '1.1.1' ],
+332 silly audit   diff: [ '4.0.2' ],
+332 silly audit   'make-error': [ '1.3.6' ],
+332 silly audit   'v8-compile-cache-lib': [ '3.0.1' ],
+332 silly audit   yn: [ '3.1.1' ],
+332 silly audit   '@jridgewell/trace-mapping': [ '0.3.9' ],
+332 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+332 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ]
+332 silly audit }
+333 verbose reify failed optional dependency C:\Users\andro\Documents\shipping-services\node_modules\fsevents
+334 silly reify mark deleted [
+334 silly reify   'C:\\Users\\andro\\Documents\\shipping-services\\node_modules\\fsevents'
+334 silly reify ]
+335 silly tarball no local data for yn@https://registry.npmjs.org/yn/-/yn-3.1.1.tgz. Extracting by manifest.
+336 silly tarball no local data for @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+337 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz. Extracting by manifest.
+338 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz. Extracting by manifest.
+339 silly tarball no local data for make-error@https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz. Extracting by manifest.
+340 silly tarball no local data for v8-compile-cache-lib@https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz. Extracting by manifest.
+341 silly tarball no local data for arg@https://registry.npmjs.org/arg/-/arg-4.1.3.tgz. Extracting by manifest.
+342 silly tarball no local data for diff@https://registry.npmjs.org/diff/-/diff-4.0.2.tgz. Extracting by manifest.
+343 silly tarball no local data for @tsconfig/node16@https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz. Extracting by manifest.
+344 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.11.3.tgz. Extracting by manifest.
+345 silly tarball no local data for acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.2.tgz. Extracting by manifest.
+346 silly tarball no local data for create-require@https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz. Extracting by manifest.
+347 silly tarball no local data for @tsconfig/node12@https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz. Extracting by manifest.
+348 silly tarball no local data for @tsconfig/node14@https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz. Extracting by manifest.
+349 silly tarball no local data for @tsconfig/node10@https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.11.tgz. Extracting by manifest.
+350 silly tarball no local data for @cspotcode/source-map-support@https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz. Extracting by manifest.
+351 silly tarball no local data for @types/ms@https://registry.npmjs.org/@types/ms/-/ms-0.7.34.tgz. Extracting by manifest.
+352 silly tarball no local data for wkx@https://registry.npmjs.org/wkx/-/wkx-0.5.0.tgz. Extracting by manifest.
+353 silly tarball no local data for toposort-class@https://registry.npmjs.org/toposort-class/-/toposort-class-1.0.1.tgz. Extracting by manifest.
+354 silly tarball no local data for is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+355 silly tarball no local data for sequelize-pool@https://registry.npmjs.org/sequelize-pool/-/sequelize-pool-7.1.0.tgz. Extracting by manifest.
+356 silly tarball no local data for retry-as-promised@https://registry.npmjs.org/retry-as-promised/-/retry-as-promised-7.0.4.tgz. Extracting by manifest.
+357 silly tarball no local data for moment-timezone@https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.45.tgz. Extracting by manifest.
+358 silly tarball no local data for dottie@https://registry.npmjs.org/dottie/-/dottie-2.0.6.tgz. Extracting by manifest.
+359 silly tarball no local data for xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz. Extracting by manifest.
+360 silly tarball no local data for @types/validator@https://registry.npmjs.org/@types/validator/-/validator-13.11.10.tgz. Extracting by manifest.
+361 silly tarball no local data for inflection@https://registry.npmjs.org/inflection/-/inflection-1.13.4.tgz. Extracting by manifest.
+362 silly tarball no local data for moment@https://registry.npmjs.org/moment/-/moment-2.30.1.tgz. Extracting by manifest.
+363 silly tarball no local data for @types/debug@https://registry.npmjs.org/@types/debug/-/debug-4.1.12.tgz. Extracting by manifest.
+364 silly tarball no local data for split2@https://registry.npmjs.org/split2/-/split2-4.2.0.tgz. Extracting by manifest.
+365 silly tarball no local data for postgres-interval@https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz. Extracting by manifest.
+366 silly tarball no local data for postgres-bytea@https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.0.tgz. Extracting by manifest.
+367 silly tarball no local data for postgres-array@https://registry.npmjs.org/postgres-array/-/postgres-array-2.0.0.tgz. Extracting by manifest.
+368 silly tarball no local data for underscore@https://registry.npmjs.org/underscore/-/underscore-1.13.6.tgz. Extracting by manifest.
+369 silly tarball no local data for postgres-date@https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz. Extracting by manifest.
+370 silly tarball no local data for pg-int8@https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz. Extracting by manifest.
+371 silly tarball no local data for pg-types@https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz. Extracting by manifest.
+372 silly tarball no local data for pg-protocol@https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.6.1.tgz. Extracting by manifest.
+373 silly tarball no local data for pgpass@https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz. Extracting by manifest.
+374 silly tarball no local data for pg-pool@https://registry.npmjs.org/pg-pool/-/pg-pool-3.6.2.tgz. Extracting by manifest.
+375 silly tarball no local data for pg-connection-string@https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.6.4.tgz. Extracting by manifest.
+376 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz. Extracting by manifest.
+377 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz. Extracting by manifest.
+378 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+379 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+380 silly tarball no local data for pg-cloudflare@https://registry.npmjs.org/pg-cloudflare/-/pg-cloudflare-1.1.1.tgz. Extracting by manifest.
+381 silly tarball no local data for binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz. Extracting by manifest.
+382 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz. Extracting by manifest.
+383 silly tarball no local data for to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+384 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+385 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+386 silly tarball no local data for normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz. Extracting by manifest.
+387 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+388 silly tarball no local data for is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz. Extracting by manifest.
+389 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+390 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz. Extracting by manifest.
+391 silly tarball no local data for undefsafe@https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz. Extracting by manifest.
+392 silly tarball no local data for anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz. Extracting by manifest.
+393 silly tarball no local data for simple-update-notifier@https://registry.npmjs.org/simple-update-notifier/-/simple-update-notifier-2.0.0.tgz. Extracting by manifest.
+394 silly tarball no local data for touch@https://registry.npmjs.org/touch/-/touch-3.1.1.tgz. Extracting by manifest.
+395 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.6.2.tgz. Extracting by manifest.
+396 silly tarball no local data for pstree.remy@https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz. Extracting by manifest.
+397 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz. Extracting by manifest.
+398 silly tarball no local data for ignore-by-default@https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz. Extracting by manifest.
+399 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz. Extracting by manifest.
+400 silly tarball no local data for seq-queue@https://registry.npmjs.org/seq-queue/-/seq-queue-0.0.5.tgz. Extracting by manifest.
+401 silly tarball no local data for named-placeholders@https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.3.tgz. Extracting by manifest.
+402 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-8.0.5.tgz. Extracting by manifest.
+403 silly tarball no local data for is-property@https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz. Extracting by manifest.
+404 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz. Extracting by manifest.
+405 silly tarball no local data for long@https://registry.npmjs.org/long/-/long-5.2.3.tgz. Extracting by manifest.
+406 silly tarball no local data for generate-function@https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz. Extracting by manifest.
+407 silly tarball no local data for denque@https://registry.npmjs.org/denque/-/denque-2.1.0.tgz. Extracting by manifest.
+408 silly tarball no local data for ts-node@https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz. Extracting by manifest.
+409 silly tarball no local data for validator@https://registry.npmjs.org/validator/-/validator-13.12.0.tgz. Extracting by manifest.
+410 silly tarball no local data for pg-hstore@https://registry.npmjs.org/pg-hstore/-/pg-hstore-2.3.4.tgz. Extracting by manifest.
+411 silly tarball no local data for pg@https://registry.npmjs.org/pg/-/pg-8.12.0.tgz. Extracting by manifest.
+412 silly tarball no local data for nodemon@https://registry.npmjs.org/nodemon/-/nodemon-3.1.3.tgz. Extracting by manifest.
+413 silly tarball no local data for sequelize@https://registry.npmjs.org/sequelize/-/sequelize-6.37.3.tgz. Extracting by manifest.
+414 silly tarball no local data for mysql2@https://registry.npmjs.org/mysql2/-/mysql2-3.10.1.tgz. Extracting by manifest.
+415 silly tarball no local data for @types/uuid@https://registry.npmjs.org/@types/uuid/-/uuid-9.0.8.tgz. Extracting by manifest.
+416 silly tarball no local data for express-validator@https://registry.npmjs.org/express-validator/-/express-validator-7.1.0.tgz. Extracting by manifest.
+417 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.4.5.tgz. Extracting by manifest.
+418 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz. Extracting by manifest.
+419 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+420 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+421 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz. Extracting by manifest.
+422 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.5.tgz. Extracting by manifest.
+423 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.5.tgz. Extracting by manifest.
+424 silly tarball no local data for sqlstring@https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.3.tgz. Extracting by manifest.
+425 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz. Extracting by manifest.
+426 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 366ms
+427 silly audit report {}
+428 http fetch GET 200 https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz 377ms (cache miss)
+429 http fetch GET 200 https://registry.npmjs.org/yn/-/yn-3.1.1.tgz 379ms (cache miss)
+430 http fetch GET 200 https://registry.npmjs.org/arg/-/arg-4.1.3.tgz 389ms (cache miss)
+431 http fetch GET 200 https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz 388ms (cache miss)
+432 http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz 396ms (cache miss)
+433 http fetch GET 200 https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 409ms (cache miss)
+434 http fetch GET 200 https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.2.tgz 407ms (cache miss)
+435 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz 410ms (cache miss)
+436 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz 413ms (cache miss)
+437 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz 444ms (cache miss)
+438 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz 447ms (cache miss)
+439 http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz 468ms (cache miss)
+440 http fetch GET 200 https://registry.npmjs.org/@types/ms/-/ms-0.7.34.tgz 529ms (cache miss)
+441 http fetch GET 200 https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 718ms (cache miss)
+442 http fetch GET 200 https://registry.npmjs.org/sequelize-pool/-/sequelize-pool-7.1.0.tgz 719ms (cache miss)
+443 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.11.tgz 763ms (cache miss)
+444 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 756ms (cache miss)
+445 http fetch GET 200 https://registry.npmjs.org/dottie/-/dottie-2.0.6.tgz 765ms (cache miss)
+446 http fetch GET 200 https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz 773ms (cache miss)
+447 http fetch GET 200 https://registry.npmjs.org/retry-as-promised/-/retry-as-promised-7.0.4.tgz 768ms (cache miss)
+448 http fetch GET 200 https://registry.npmjs.org/diff/-/diff-4.0.2.tgz 781ms (cache miss)
+449 http fetch GET 200 https://registry.npmjs.org/toposort-class/-/toposort-class-1.0.1.tgz 772ms (cache miss)
+450 http fetch GET 200 https://registry.npmjs.org/inflection/-/inflection-1.13.4.tgz 787ms (cache miss)
+451 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.11.3.tgz 845ms (cache miss)
+452 http fetch GET 200 https://registry.npmjs.org/wkx/-/wkx-0.5.0.tgz 851ms (cache miss)
+453 http fetch GET 200 https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz 921ms (cache miss)
+454 http fetch GET 200 https://registry.npmjs.org/postgres-array/-/postgres-array-2.0.0.tgz 922ms (cache miss)
+455 http fetch GET 200 https://registry.npmjs.org/split2/-/split2-4.2.0.tgz 924ms (cache miss)
+456 http fetch GET 200 https://registry.npmjs.org/@types/validator/-/validator-13.11.10.tgz 942ms (cache miss)
+457 http fetch GET 200 https://registry.npmjs.org/@types/debug/-/debug-4.1.12.tgz 942ms (cache miss)
+458 http fetch GET 200 https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz 1030ms (cache miss)
+459 http fetch GET 200 https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.6.4.tgz 1029ms (cache miss)
+460 http fetch GET 200 https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.0.tgz 1035ms (cache miss)
+461 http fetch GET 200 https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz 1052ms (cache miss)
+462 http fetch GET 200 https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz 1091ms (cache miss)
+463 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 1123ms (cache miss)
+464 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 1123ms (cache miss)
+465 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 1166ms (cache miss)
+466 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 1167ms (cache miss)
+467 http fetch GET 200 https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz 1171ms (cache miss)
+468 http fetch GET 200 https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz 1209ms (cache miss)
+469 http fetch GET 200 https://registry.npmjs.org/pg-cloudflare/-/pg-cloudflare-1.1.1.tgz 1214ms (cache miss)
+470 http fetch GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 1228ms (cache miss)
+471 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 1236ms (cache miss)
+472 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 1289ms (cache miss)
+473 http fetch GET 200 https://registry.npmjs.org/pg-pool/-/pg-pool-3.6.2.tgz 1305ms (cache miss)
+474 http fetch GET 200 https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 1327ms (cache miss)
+475 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 1333ms (cache miss)
+476 http fetch GET 200 https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.6.1.tgz 1361ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 1388ms (cache miss)
+478 http fetch GET 200 https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz 1449ms (cache miss)
+479 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 1452ms (cache miss)
+480 http fetch GET 200 https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz 1449ms (cache miss)
+481 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 1453ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/simple-update-notifier/-/simple-update-notifier-2.0.0.tgz 1458ms (cache miss)
+483 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 1489ms (cache miss)
+484 http fetch GET 200 https://registry.npmjs.org/touch/-/touch-3.1.1.tgz 1487ms (cache miss)
+485 http fetch GET 200 https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz 1550ms (cache miss)
+486 http fetch GET 200 https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz 1606ms (cache miss)
+487 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz 1638ms (cache miss)
+488 http fetch GET 200 https://registry.npmjs.org/seq-queue/-/seq-queue-0.0.5.tgz 1640ms (cache miss)
+489 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.6.2.tgz 1644ms (cache miss)
+490 http fetch GET 200 https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz 1645ms (cache miss)
+491 http fetch GET 200 https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.3.tgz 1657ms (cache miss)
+492 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 1686ms (cache miss)
+493 http fetch GET 200 https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz 1688ms (cache miss)
+494 http fetch GET 200 https://registry.npmjs.org/pg-hstore/-/pg-hstore-2.3.4.tgz 1833ms (cache miss)
+495 http fetch GET 200 https://registry.npmjs.org/denque/-/denque-2.1.0.tgz 1835ms (cache miss)
+496 http fetch GET 200 https://registry.npmjs.org/long/-/long-5.2.3.tgz 1842ms (cache miss)
+497 http fetch GET 200 https://registry.npmjs.org/@types/uuid/-/uuid-9.0.8.tgz 1937ms (cache miss)
+498 http fetch GET 200 https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.45.tgz 1973ms (cache miss)
+499 http fetch GET 200 https://registry.npmjs.org/pg/-/pg-8.12.0.tgz 2175ms (cache miss)
+500 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 2210ms (cache miss)
+501 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 2237ms (cache miss)
+502 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz 2408ms (cache miss)
+503 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.5.tgz 2509ms (cache miss)
+504 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.5.tgz 2527ms (cache miss)
+505 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 2603ms (cache miss)
+506 http fetch GET 200 https://registry.npmjs.org/express-validator/-/express-validator-7.1.0.tgz 2623ms (cache miss)
+507 http fetch GET 200 https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.3.tgz 2633ms (cache miss)
+508 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 3195ms (cache miss)
+509 http fetch GET 200 https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz 4185ms (cache miss)
+510 http fetch GET 200 https://registry.npmjs.org/validator/-/validator-13.12.0.tgz 4976ms (cache miss)
+511 http fetch GET 200 https://registry.npmjs.org/mysql2/-/mysql2-3.10.1.tgz 5008ms (cache miss)
+512 http fetch GET 200 https://registry.npmjs.org/underscore/-/underscore-1.13.6.tgz 5843ms (cache miss)
+513 http fetch GET 200 https://registry.npmjs.org/nodemon/-/nodemon-3.1.3.tgz 5917ms (cache miss)
+514 http fetch GET 200 https://registry.npmjs.org/moment/-/moment-2.30.1.tgz 6223ms (cache miss)
+515 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-8.0.5.tgz 6203ms (cache miss)
+516 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 7014ms (cache miss)
+517 http fetch GET 200 https://registry.npmjs.org/sequelize/-/sequelize-6.37.3.tgz 9889ms (cache miss)
+518 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.4.5.tgz 21269ms (cache miss)
+519 silly ADD node_modules/@jridgewell/sourcemap-codec
+520 silly ADD node_modules/@jridgewell/resolve-uri
+521 silly ADD node_modules/@jridgewell/trace-mapping
+522 silly ADD node_modules/yn
+523 silly ADD node_modules/v8-compile-cache-lib
+524 silly ADD node_modules/make-error
+525 silly ADD node_modules/diff
+526 silly ADD node_modules/create-require
+527 silly ADD node_modules/arg
+528 silly ADD node_modules/acorn-walk
+529 silly ADD node_modules/acorn
+530 silly ADD node_modules/@tsconfig/node16
+531 silly ADD node_modules/@tsconfig/node14
+532 silly ADD node_modules/@tsconfig/node12
+533 silly ADD node_modules/@tsconfig/node10
+534 silly ADD node_modules/@cspotcode/source-map-support
+535 silly ADD node_modules/is-number
+536 silly ADD node_modules/@types/ms
+537 silly ADD node_modules/wkx
+538 silly ADD node_modules/toposort-class
+539 silly ADD node_modules/sequelize-pool
+540 silly ADD node_modules/retry-as-promised
+541 silly ADD node_modules/moment-timezone
+542 silly ADD node_modules/moment
+543 silly ADD node_modules/inflection
+544 silly ADD node_modules/dottie
+545 silly ADD node_modules/@types/validator
+546 silly ADD node_modules/@types/debug
+547 silly ADD node_modules/xtend
+548 silly ADD node_modules/split2
+549 silly ADD node_modules/postgres-interval
+550 silly ADD node_modules/postgres-date
+551 silly ADD node_modules/postgres-bytea
+552 silly ADD node_modules/postgres-array
+553 silly ADD node_modules/pg-int8
+554 silly ADD node_modules/underscore
+555 silly ADD node_modules/pgpass
+556 silly ADD node_modules/pg-types
+557 silly ADD node_modules/pg-protocol
+558 silly ADD node_modules/pg-pool
+559 silly ADD node_modules/pg-connection-string
+560 silly ADD node_modules/pg-cloudflare
+561 silly ADD node_modules/concat-map
+562 silly ADD node_modules/balanced-match
+563 silly ADD node_modules/brace-expansion
+564 silly ADD node_modules/is-extglob
+565 silly ADD node_modules/binary-extensions
+566 silly ADD node_modules/to-regex-range
+567 silly ADD node_modules/fill-range
+568 silly ADD node_modules/picomatch
+569 silly ADD node_modules/readdirp
+570 silly ADD node_modules/normalize-path
+571 silly ADD node_modules/is-glob
+572 silly ADD node_modules/is-binary-path
+573 silly ADD node_modules/glob-parent
+574 silly ADD
+575 silly ADD node_modules/braces
+576 silly ADD node_modules/anymatch
+577 silly ADD node_modules/undefsafe
+578 silly ADD node_modules/touch
+579 silly ADD node_modules/simple-update-notifier
+580 silly ADD node_modules/semver
+581 silly ADD node_modules/pstree.remy
+582 silly ADD node_modules/minimatch
+583 silly ADD node_modules/ignore-by-default
+584 silly ADD node_modules/chokidar
+585 silly ADD node_modules/is-property
+586 silly ADD node_modules/seq-queue
+587 silly ADD node_modules/named-placeholders
+588 silly ADD node_modules/named-placeholders/node_modules/lru-cache
+589 silly ADD node_modules/lru-cache
+590 silly ADD node_modules/long
+591 silly ADD node_modules/generate-function
+592 silly ADD node_modules/denque
+593 silly ADD node_modules/validator
+594 silly ADD node_modules/lodash
+595 silly ADD node_modules/ts-node
+596 silly ADD node_modules/sequelize
+597 silly ADD node_modules/sequelize/node_modules/ms
+598 silly ADD node_modules/sequelize/node_modules/uuid
+599 silly ADD node_modules/sequelize/node_modules/debug
+600 silly ADD node_modules/pg-hstore
+601 silly ADD node_modules/pg
+602 silly ADD node_modules/nodemon
+603 silly ADD node_modules/nodemon/node_modules/ms
+604 silly ADD node_modules/nodemon/node_modules/debug
+605 silly ADD node_modules/mysql2
+606 silly ADD node_modules/mysql2/node_modules/sqlstring
+607 silly ADD node_modules/mysql2/node_modules/iconv-lite
+608 silly ADD node_modules/express-validator
+609 silly ADD node_modules/@types/uuid
+610 silly REMOVE node_modules/util-deprecate
+611 silly CHANGE node_modules/typescript
+612 silly REMOVE node_modules/string_decoder
+613 silly REMOVE node_modules/string_decoder/node_modules/safe-buffer
+614 silly REMOVE node_modules/sqlstring
+615 silly REMOVE node_modules/readable-stream
+616 silly REMOVE node_modules/readable-stream/node_modules/safe-buffer
+617 silly REMOVE node_modules/process-nextick-args
+618 silly REMOVE node_modules/on-headers
+619 silly REMOVE node_modules/mysql
+620 silly REMOVE node_modules/mysql/node_modules/safe-buffer
+621 silly REMOVE node_modules/morgan
+622 silly REMOVE node_modules/morgan/node_modules/on-finished
+623 silly REMOVE node_modules/isarray
+624 silly REMOVE node_modules/core-util-is
+625 silly REMOVE node_modules/bignumber.js
+626 silly REMOVE node_modules/basic-auth
+627 silly REMOVE node_modules/basic-auth/node_modules/safe-buffer
+628 silly REMOVE node_modules/@types/serve-static
+629 silly REMOVE node_modules/@types/send
+630 silly REMOVE node_modules/@types/range-parser
+631 silly REMOVE node_modules/@types/qs
+632 silly REMOVE node_modules/@types/mysql
+633 silly REMOVE node_modules/@types/morgan
+634 silly REMOVE node_modules/@types/mime
+635 silly REMOVE node_modules/@types/http-errors
+636 silly REMOVE node_modules/@types/express-serve-static-core
+637 silly REMOVE node_modules/@types/express
+638 silly REMOVE node_modules/@types/connect
+639 silly REMOVE node_modules/@types/body-parser
+640 notice
+640 notice New [33mminor[39m version of npm available! [33m10.7.0[39m -> [34m10.8.1[39m
+640 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.8.1[39m
+640 notice To update run: [4mnpm install -g npm@10.8.1[24m
+640 notice  { force: true, [Symbol(proc-log.meta)]: true }
+641 verbose exit 0
+642 info ok
