@@ -15,7 +15,7 @@ export class SequelizeShipmentRepository implements IShipmentRepository {
       model.base_price,
       model.additional_charge,
       model.total_price,
-      model.status
+      model.status_uuid
     ));
   }
 }

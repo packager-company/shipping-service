@@ -10,7 +10,7 @@ interface ShipmentAttributes {
   base_price: number;
   additional_charge: number;
   total_price: number;
-  status: string;
+  status_uuid: string;
 }
 
 interface ShipmentCreationAttributes extends Optional<ShipmentAttributes, 'uuid'> {}
@@ -24,7 +24,7 @@ class ShipmentModel extends Model<ShipmentAttributes, ShipmentCreationAttributes
   public base_price!: number;
   public additional_charge!: number;
   public total_price!: number;
-  public status!: string;
+  public status_uuid!: string;
 }
 
 ShipmentModel.init({
@@ -61,8 +61,8 @@ ShipmentModel.init({
     type: DataTypes.FLOAT,
     allowNull: false,
   },
-  status: {
-    type: DataTypes.STRING,
+  status_uuid: {
+    type: DataTypes.UUID,
     allowNull: false,
   },
 }, {

@@ -8,7 +8,7 @@ export class Shipment {
       public base_price: number,
       public additional_charge: number,
       public total_price: number,
-      public status: string
+      public status_uuid: string
     ) {}
   }
   
