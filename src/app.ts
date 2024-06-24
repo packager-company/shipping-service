@@ -1,17 +1,18 @@
-import express, {Application} from "express";
-import morgan from "morgan";
+import express from "express";
+import "dotenv/config";
+import { cotizacionRoutes} from "./cotizacion/infraestructure/routes/cotizacionRoutes";
 
-import dotenv from 'dotenv';
-import {Signale} from "signale";
+const app = express();
 
-const app:Application = express();
-const signale = new Signale();
 
-dotenv.config();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use(morgan('dev'));
-const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-    signale.success(`Servidor corriendo en http://localhost:${PORT}`);
+app.use('/api/v1/cotizacion', cotizacionRoutes);
+
+
+const port = process.env.PORT || 3001;
+app.listen(port, () => {
+  console.log(`Corriendo en el puerto ${port}`);
 });

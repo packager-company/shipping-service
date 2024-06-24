@@ -1,6 +1,6 @@
 import express from 'express';
 import { createCotizacionController } from '../dependencies'
 
-const cotizacionRouter = express.Router();
+export const cotizacionRoutes = express.Router();
 
-cotizacionRouter.post("/create-cotizacion", createCotizacionController.run.bind(createCotizacionController));
+cotizacionRoutes.post("/create-cotizacion", createCotizacionController.run.bind(createCotizacionController));
