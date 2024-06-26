@@ -10,23 +10,33 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.crearEnvioController = void 0;
-const crearEnvio_1 = require("../../application/use_cases/crearEnvio");
-const EnvioRepository_1 = require("../repositories/EnvioRepository");
 const express_validator_1 = require("express-validator");
-const envioRepository = new EnvioRepository_1.EnvioRepository();
-const crearEnvio = new crearEnvio_1.CrearEnvio(envioRepository);
-const crearEnvioController = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+const envio_1 = require("../../domain/entities/envio");
+const crearEnvioController = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const errors = (0, express_validator_1.validationResult)(req);
         if (!errors.isEmpty()) {
             return res.status(400).json({ errors: errors.array() });
         }
         const { user_uuid, origin, destination, weight, base_price, additional_charge, total_price, status_uuid } = req.body;
-        const envio = yield crearEnvio.ejecutar(user_uuid, origin, destination, weight, base_price, additional_charge, total_price, status_uuid);
+        const originZip = origin.substring(0, 5);
+        const destinationZip = destination.substring(0, 5);
+        const envio = yield envio_1.Envio.create({
+            user_uuid,
+            origin: originZip,
+            destination: destinationZip,
+            weight,
+            base_price,
+            additional_charge,
+            total_price,
+            status_uuid
+        });
+        // Enviar respuesta exitosa
         res.status(201).json(envio);
     }
     catch (error) {
-        next(error);
+        console.error('Error in crearEnvioController:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 exports.crearEnvioController = crearEnvioController;

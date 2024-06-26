@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Envio = void 0;
 const sequelize_1 = require("sequelize");
 const database_1 = require("../../../database/database");
+const uuid_1 = require("uuid");
 class Envio extends sequelize_1.Model {
 }
 exports.Envio = Envio;
@@ -11,6 +12,7 @@ Envio.init({
         type: sequelize_1.DataTypes.STRING(36),
         allowNull: false,
         primaryKey: true,
+        defaultValue: () => (0, uuid_1.v4)(), // Generar UUID automáticamente
     },
     user_uuid: {
         type: sequelize_1.DataTypes.STRING(36),

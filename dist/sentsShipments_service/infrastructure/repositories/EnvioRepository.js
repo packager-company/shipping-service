@@ -12,19 +12,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.EnvioRepository = void 0;
 const envio_1 = require("../../domain/entities/envio");
 class EnvioRepository {
-    crear(envio) {
+    createEnvio(data) {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield envio_1.Envio.create({
-                uuid: envio.uuid,
-                user_uuid: envio.user_uuid,
-                origin: envio.origin,
-                destination: envio.destination,
-                weight: envio.weight,
-                base_price: envio.base_price,
-                additional_charge: envio.additional_charge,
-                total_price: envio.total_price,
-                status_uuid: envio.status_uuid,
-            });
+            const envio = yield envio_1.Envio.create(data);
+            return envio;
         });
     }
 }

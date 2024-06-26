@@ -1,7 +1,3 @@
-import { EnvioRepository } from "./infrastructure/repositories/EnvioRepository";
-import { CrearEnvio } from "./application/use_cases/crearEnvio";
+import { EnvioRepository } from './infrastructure/repositories/EnvioRepository';
 
-const envioRepository = new EnvioRepository();
-const crearEnvio = new CrearEnvio(envioRepository);
-
-export { envioRepository, crearEnvio };
+export const envioRepository = new EnvioRepository();

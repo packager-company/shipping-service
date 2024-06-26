@@ -1,5 +1,6 @@
 import { DataTypes, Model } from 'sequelize';
 import { sequelize } from '../../../database/database';
+import { v4 as uuidv4 } from 'uuid';
 
 class Envio extends Model {
   public uuid!: string;
@@ -19,6 +20,7 @@ Envio.init(
       type: DataTypes.STRING(36),
       allowNull: false,
       primaryKey: true,
+      defaultValue: () => uuidv4(),
     },
     user_uuid: {
       type: DataTypes.STRING(36),
